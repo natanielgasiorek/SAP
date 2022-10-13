@@ -1,0 +1,7 @@
+  
+  CASE sy-ucomm..
+    WHEN 'BUT01'.
+    WHEN 'BUT02'.
+      CALL TRANSACTION '(nazwa transakcji)'. <-odpalenie programu/tabeli za pomocą transakcji.
+    WHEN OTHERS.
+  ENDCASE.
