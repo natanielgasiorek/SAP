@@ -1,0 +1,8 @@
+"Ekran selekcji - wprowadzanie wielu parametrów.
+DATA: s_kschl TYPE a904-kschl,
+      s_prdha TYPE mara-prdha.
+
+SELECTION-SCREEN BEGIN OF BLOCK a01 WITH FRAME TITLE TEXT-001.
+  SELECT-OPTIONS: so_kschl FOR s_kschl OBLIGATORY.
+  SELECT-OPTIONS: so_prdha FOR s_prdha OBLIGATORY.
+SELECTION-SCREEN END OF BLOCK a01.
