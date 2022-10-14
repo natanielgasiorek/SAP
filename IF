@@ -1,0 +1,4 @@
+    /Warunek sprawdzający czy dane pole w rekordzie ma odpowiednią długość.
+    IF strlen( ls_mara-prdha ) = 8.
+      
+    ENDIF.
