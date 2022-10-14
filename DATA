@@ -1,4 +1,4 @@
-/Tworzenie struktury
+/Tworzenie sztucznej tymczasowej struktury
 TYPES: BEGIN OF ty_mara,
          matnr TYPE mara-matnr,
          prdha TYPE mara-prdha,
