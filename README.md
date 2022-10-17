@@ -14,3 +14,4 @@ Aby stworzyć transakcję dla opracowania wglądu należy:
 
 ---------------------------------------------------------------
 Przykład sortowania: SORT gt_price BY kscha.
+Przykład zabrania pierwszej lini tabeli: READ TABLE gt_price_temp INTO DATA(gs_price_temp) INDEX 1.
