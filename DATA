@@ -3,3 +3,9 @@ TYPES: BEGIN OF ty_mara,
          matnr TYPE mara-matnr,
          prdha TYPE mara-prdha,
        END OF ty_mara.
+
+/Tworzenie sztucznej tymczasowej struktury na podobieństwo innej tabeli itp.
+TYPES: BEGIN OF ty_accd_ob.
+         INCLUDE STRUCTURE zco_accd.
+         TYPES: objnr TYPE objnr,
+       END OF ty_accd_ob.
