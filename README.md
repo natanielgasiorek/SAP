@@ -11,3 +11,6 @@ Aby stworzyć transakcję dla opracowania wglądu należy:
 - zaznaczyć GUI-dziedziczenie właściwości,
 - w parametrach podać VIEWNAME - wartość NAZWA WGLĄDU
 		      UPDATE	- X
+
+
+Przykład sortowania: SORT gt_price BY kscha.
