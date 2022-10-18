@@ -14,10 +14,13 @@ Aby stworzyć transakcję dla opracowania wglądu należy:
 
 ---------------------------------------------------------------
 -Przykład sortowania: 
+
 *SORT gt_price BY kscha.
 
 -Przykład zabrania pierwszej lini tabeli: 
+
 *READ TABLE gt_price_temp INTO DATA(gs_price_temp) INDEX 1.
 
--Przeżucanie danych do tabeli z warunkiem nie usówania takich samych:
+-Przerzucanie danych do tabeli z warunkiem nie usówania takich samych:
+
 *MOVE-CORRESPONDING gt_price_temp_1 TO  gt_price_temp KEEPING TARGET LINES.
