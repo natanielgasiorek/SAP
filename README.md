@@ -25,6 +25,11 @@ Edytowanie układu wglądu do tabeli:
 - wybierasz ekran (enter),
 - układ
 
+Usuwanie danych z tabeli se16n:
+
+-wchodzimy w debager
+-parametry ( gd_edit = X, gd_sapedit = X)
+
 ---------------------------------------------------------------
 Przekazanie parametru select-options do modułu funkcyjnego!
 
