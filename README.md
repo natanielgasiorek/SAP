@@ -11,6 +11,17 @@ Aby stworzyć transakcję dla opracowania wglądu należy:
 - zaznaczyć GUI-dziedziczenie właściwości,
 - w parametrach podać VIEWNAME - wartość NAZWA WGLĄDU
 		      UPDATE	- X
+		     
+Edytowanie układu wglądu do tabeli:
+
+- uruchomić transakcję SE11,
+- w trybie zmiany odpalić tabelę,
+- pomoce (generator opracowania tabeli),
+- otoczenie
+- modyfikacja,
+- ekrany opracowania,
+- wybierasz ekran (enter),
+- układ
 
 ---------------------------------------------------------------
 Przekazanie parametru select-options do modułu funkcyjnego!
