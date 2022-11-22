@@ -51,3 +51,7 @@ MOVE-CORRESPONDING so_werks[] TO gt_werks_opt.
 -Przerzucanie danych do tabeli z warunkiem nie usówania takich samych:
 
 *MOVE-CORRESPONDING gt_price_temp_1 TO  gt_price_temp KEEPING TARGET LINES.
+
+-Usówanie zer wiodących podczas przypisania wartości.
+
+*<line>-matnr = |{ ls_mseg-matnr ALPHA = OUT }|.
