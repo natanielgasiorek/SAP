@@ -54,4 +54,8 @@ MOVE-CORRESPONDING so_werks[] TO gt_werks_opt.
 
 -Usuwanie zer wiodących podczas przypisania wartości.
 
-* <line>-matnr = |{ ls_mseg-matnr ALPHA = OUT }|.
+*<line>-matnr = |{ ls_mseg-matnr ALPHA = OUT }|.
+	
+-Tworzenie concatenate podczas przypisywania wartości.
+	
+*<line>-matdoc = lv_temp && ls_mseg-zeile.
