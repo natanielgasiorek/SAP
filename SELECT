@@ -1,1 +1,5 @@
-/Zwykły selekt pobierający 
+/Selekt z deklaracją dynamiczą
+
+  SELECT * FROM mseg INTO TABLE @DATA(lt_mseg)
+    WHERE mblnr = @pa_mblnr
+      AND mjahr = @pa_mjahr.
