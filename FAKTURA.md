@@ -1,4 +1,4 @@
-###Poradnik, jak pobrać tekst z nagłówka faktury do programu:
+### Poradnik, jak pobrać tekst z nagłówka faktury do programu:
 
 Tekst z nagłówka faktury znajdziemy w transakcji VF03.
 
