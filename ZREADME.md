@@ -16,7 +16,7 @@ MOVE-CORRESPONDING so_werks[] TO gt_werks_opt.
 ![image](https://user-images.githubusercontent.com/91785152/196413115-73fcfaf3-132a-4c11-88c1-482532c18bc6.png)
 
 ---------------------------------------------------------------
-# Przykład sortowania: 
+#### Przykład sortowania: 
 
 *SORT gt_price BY kscha.
 
