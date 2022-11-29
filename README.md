@@ -1,16 +1,5 @@
 # SAP
 Wszystkie potrzebne kody do pracy.
-
-Aby stworzyć transakcję dla opracowania wglądu należy:
-
-- uruchomić transakcję SE93,
-- wybrać nazwę dla nowej transakcji,
-- wybrać opcję transakcja z parametrami (transakcja parametrów),
-- dalej w polu transakcja wpisać SM30,
-- zaznaczyć pominięcie ekranu początk.,
-- zaznaczyć GUI-dziedziczenie właściwości,
-- w parametrach podać VIEWNAME - wartość NAZWA WGLĄDU
-		      UPDATE	- X
 		      
 ![92f7bf09-3341-45c8-8d28-50a478a585e8](https://user-images.githubusercontent.com/91785152/198004684-a3dce76d-9377-49cf-a564-8c2e45915daa.jpg)
    
