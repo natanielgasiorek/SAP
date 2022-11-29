@@ -47,7 +47,7 @@ Edytowanie układu wglądu do tabeli:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### Usuwanie danych z tabeli se16n:
+## Usuwanie danych z tabeli se16n:
 
 -wchodzimy w debager
 
