@@ -29,3 +29,8 @@ Aby stworzyć transakcję dla opracowania wglądu należy:
 Tworzymy generator opracowania tabeli:
 
 ![92f7bf09-3341-45c8-8d28-50a478a585e8](https://user-images.githubusercontent.com/91785152/198004684-a3dce76d-9377-49cf-a564-8c2e45915daa.jpg)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Instrukcja jak edytować wygląd tabeli konfiguracyjnej:
+
