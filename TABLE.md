@@ -6,3 +6,10 @@ Instrukcja, jak dodać autoryzację wglądu dla tabeli konfiguracyjnej:
 
 ![b6abc302-03cf-42f9-bcca-3f812e29da56](https://user-images.githubusercontent.com/91785152/204552477-25fcf053-bc05-41ba-a3e7-9c1f105337df.jpg)
 
+* Tworzymy nową grupę uprawnień
+* Dodajemy ją do generatora opracowania tabeli
+
+Przykład Mennica - ZMM_ETYKIETY
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
