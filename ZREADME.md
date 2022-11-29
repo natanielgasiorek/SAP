@@ -1,7 +1,7 @@
 # SAP
- ### Wszystkie potrzebne kody do pracy.
+### Wszystkie potrzebne kody do pracy.
 
-Usuwanie danych z tabeli se16n:
+#### Usuwanie danych z tabeli se16n:
 
 -wchodzimy w debager
 -parametry ( gd_edit = X, gd_sapedit = X)
