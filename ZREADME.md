@@ -4,6 +4,7 @@
 #### Usuwanie danych z tabeli se16n:
 
 -wchodzimy w debager
+
 -parametry ( gd_edit = X, gd_sapedit = X)
 
 ---------------------------------------------------------------
