@@ -1,13 +1,6 @@
 # SAP
 ### Wszystkie potrzebne kody do pracy.
 
-#### Usuwanie danych z tabeli se16n:
-
--wchodzimy w debager
-
--parametry ( gd_edit = X, gd_sapedit = X)
-
----------------------------------------------------------------
 Przekazanie parametru select-options do modułu funkcyjnego!
 
 DATA: gt_werks_opt TYPE RSELOPTION.
