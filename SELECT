@@ -1,4 +1,4 @@
-/Selekt z deklaracją dynamiczą
+### Selekt z deklaracją dynamiczą:
 
   SELECT * FROM mseg INTO TABLE @DATA(lt_mseg)
     WHERE mblnr = @pa_mblnr
