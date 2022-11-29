@@ -1,4 +1,4 @@
-Instrukcja, jak dodać autoryzację wglądu dla tabeli konfiguracyjnej:
+### Instrukcja, jak dodać autoryzację wglądu dla tabeli konfiguracyjnej:
 
 * Wchodzimy w transakcję se54
 * Wpisujemy nazwę tabeli/wglądu
@@ -13,3 +13,15 @@ Przykład Mennica - ZMM_ETYKIETY
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+### Instrukcja jak stworzyć wgląd do tabeli konfiguracyjnej:
+
+Aby stworzyć transakcję dla opracowania wglądu należy:
+
+- uruchomić transakcję SE93,
+- wybrać nazwę dla nowej transakcji,
+- wybrać opcję transakcja z parametrami (transakcja parametrów),
+- dalej w polu transakcja wpisać SM30,
+- zaznaczyć pominięcie ekranu początk.,
+- zaznaczyć GUI-dziedziczenie właściwości,
+- w parametrach podać VIEWNAME - wartość NAZWA WGLĄDU
+		      UPDATE	- X
