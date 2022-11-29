@@ -34,3 +34,13 @@ Tworzymy generator opracowania tabeli:
 
 ### Instrukcja jak edytować wygląd tabeli konfiguracyjnej:
 
+Edytowanie układu wglądu do tabeli:
+
+- uruchomić transakcję SE11,
+- w trybie zmiany odpalić tabelę,
+- pomoce (generator opracowania tabeli),
+- otoczenie
+- modyfikacja,
+- ekrany opracowania,
+- wybierasz ekran (enter),
+- układ
