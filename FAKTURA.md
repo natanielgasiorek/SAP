@@ -13,7 +13,7 @@ Aby pobrać dany tekst potrzebujemy jego ID i nazwę obiektu.
 Aby użyć tego tekstu używamy MF:
 
 DATA: lt_line  TYPE TABLE OF tline.
-
+<!-- 
 CALL FUNCTION 'READ_TEXT'
     EXPORTING
       client                  = sy-mandt
@@ -40,7 +40,7 @@ CALL FUNCTION 'READ_TEXT'
   IF sy-subrc <> 0.
     MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno
     WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4.
-  ENDIF.
+  ENDIF. -->
   
   Przykład: ZXVVFU02 - Mennica.
   
