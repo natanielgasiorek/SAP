@@ -12,35 +12,35 @@ Aby pobrać dany tekst potrzebujemy jego ID i nazwę obiektu.
 
 Aby użyć tego tekstu używamy MF:
 
-//DATA: lt_line  TYPE TABLE OF tline.
+DATA: lt_line  TYPE TABLE OF tline.
 
-//CALL FUNCTION 'READ_TEXT'
-//    EXPORTING
-//      client                  = sy-mandt
-//      id                      = '0001'
-//      language                = sy-langu
-//      name                    = lv_vbeln
-//      object                  = 'VBRK'
-//*     ARCHIVE_HANDLE          = 0
-//*     LOCAL_CAT               = ' '
-//*       IMPORTING
-//*     HEADER                  =
-//*     OLD_LINE_COUNTER        =
-//    TABLES
-//      lines                   = lt_line
-//    EXCEPTIONS
-//      id                      = 1
-//     language                = 2
-//      name                    = 3
-//      not_found               = 4
-//      object                  = 5
-//      reference_check         = 6
-//      wrong_access_to_archive = 7
-//      OTHERS                  = 8.
-//  IF sy-subrc <> 0.
-//    MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno
-//    WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4.
-//  ENDIF.
+CALL FUNCTION 'READ_TEXT'
+    EXPORTING
+      client                  = sy-mandt
+      id                      = '0001'
+      language                = sy-langu
+      name                    = lv_vbeln
+      object                  = 'VBRK'
+*     ARCHIVE_HANDLE          = 0
+*     LOCAL_CAT               = ' '
+*       IMPORTING
+*     HEADER                  =
+*     OLD_LINE_COUNTER        =
+    TABLES
+      lines                   = lt_line
+    EXCEPTIONS
+      id                      = 1
+     language                = 2
+      name                    = 3
+      not_found               = 4
+      object                  = 5
+      reference_check         = 6
+      wrong_access_to_archive = 7
+      OTHERS                  = 8.
+  IF sy-subrc <> 0.
+    MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno
+    WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4.
+  ENDIF.
   
   Przykład: ZXVVFU02 - Mennica.
   
