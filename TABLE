@@ -1,3 +1,5 @@
 Instrukcja, jak dodać autoryzację wglądu dla tabeli konfiguracyjnej:
 
-
+* Wchodzimy w transakcję se54
+* Wpisujemy nazwę tabeli/wglądu
+* 
