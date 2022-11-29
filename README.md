@@ -1,16 +1,5 @@
 # SAP
 Wszystkie potrzebne kody do pracy.
-   
-Edytowanie układu wglądu do tabeli:
-
-- uruchomić transakcję SE11,
-- w trybie zmiany odpalić tabelę,
-- pomoce (generator opracowania tabeli),
-- otoczenie
-- modyfikacja,
-- ekrany opracowania,
-- wybierasz ekran (enter),
-- układ
 
 Usuwanie danych z tabeli se16n:
 
