@@ -1,12 +1,15 @@
 # SAP
 ### Wszystkie potrzebne kody do pracy.
 
+--------------------------------------------------------------
 ### Jak zmienić nazwę systemowego elementu danych.
 
 * Wchodzimy w transakcję CMOD
 * Wybieramy zakładki tak jak na obrazku:
 
 ![f5233ad0-585b-49c6-8c54-4a848cc5ef4b](https://user-images.githubusercontent.com/91785152/204749013-9db20e4e-c8c4-4a52-8c49-1f25255eb387.jpg)
+
+* Wpisujemy nazwę elementu który chcemy zmienić. 
 
 --------------------------------------------------------------
 
