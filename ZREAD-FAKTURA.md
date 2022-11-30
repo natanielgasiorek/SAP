@@ -12,9 +12,9 @@ Aby pobrać dany tekst potrzebujemy jego ID i nazwę obiektu.
 
 Aby użyć tego tekstu używamy MF:
 
+~~~ ```
 DATA: lt_line  TYPE TABLE OF tline.
 
-~~~ ```
 CALL FUNCTION 'READ_TEXT'
     EXPORTING
       client                  = sy-mandt
