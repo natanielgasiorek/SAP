@@ -14,6 +14,7 @@ Aby użyć tego tekstu używamy MF:
 
 DATA: lt_line  TYPE TABLE OF tline.
 
+~~~ ```
 CALL FUNCTION 'READ_TEXT'
     EXPORTING
       client                  = sy-mandt
@@ -41,6 +42,8 @@ CALL FUNCTION 'READ_TEXT'
     MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno
     WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4.
   ENDIF.
+  
+  ~~~ ```
   
   Przykład: ZXVVFU02 - Mennica.
   
