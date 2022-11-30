@@ -13,7 +13,7 @@
 
 --------------------------------------------------------------
 
-Przekazanie parametru select-options do modułu funkcyjnego!
+### Przekazanie parametru select-options do modułu funkcyjnego:
 
 DATA: gt_werks_opt TYPE RSELOPTION.
 
