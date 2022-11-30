@@ -43,7 +43,7 @@ CALL FUNCTION 'READ_TEXT'
     WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4.
   ENDIF.
   
-``` ~~~
+~~~
   
   Przykład: ZXVVFU02 - Mennica.
   
