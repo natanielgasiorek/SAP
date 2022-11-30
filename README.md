@@ -1,6 +1,12 @@
 # SAP
 ### Wszystkie potrzebne kody do pracy.
 
+### Jak zmienić nazwę systemowego elementu danych.
+
+* Wchodzimy w transakcję ### CMOD
+* Wybieramy skok do 
+--------------------------------------------------------------
+
 Przekazanie parametru select-options do modułu funkcyjnego!
 
 DATA: gt_werks_opt TYPE RSELOPTION.
