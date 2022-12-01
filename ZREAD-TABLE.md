@@ -52,3 +52,10 @@ Edytowanie układu wglądu do tabeli:
 -wchodzimy w debager
 
 -parametry ( gd_edit = X, gd_sapedit = X)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Usuwanie duplikatów w pomocy wyszukiwania:
+
+![image](https://user-images.githubusercontent.com/91785152/205066443-0507f392-41af-4f48-aa8f-938e20ae76fe.png)
+
