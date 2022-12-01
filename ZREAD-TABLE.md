@@ -59,3 +59,7 @@ Edytowanie układu wglądu do tabeli:
 
 ![image](https://user-images.githubusercontent.com/91785152/205066443-0507f392-41af-4f48-aa8f-938e20ae76fe.png)
 
+Nazwa exitu = /DSD/DX_SH_EXIT_DUPLICATES
+
+Przyklad: ZMM_LABELS - ZPRINTER_F4 - Mennica
+
