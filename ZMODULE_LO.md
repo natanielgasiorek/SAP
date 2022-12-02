@@ -24,6 +24,6 @@ DATA:
   READ TABLE lt_docflow_erp ASSIGNING FIELD-SYMBOL(<docflow_erp>) WITH KEY btd_category_code = 'TO'. "freight order<br>
 ```
 
-Przykład: Grupa funkcyjna -> ZTM_RF, pakiet ZTM -> -> Zarys
+Przykład: Grupa funkcyjna -> ZTM_RF, pakiet -> ZTM -> Zarys
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
