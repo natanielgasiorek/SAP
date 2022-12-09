@@ -1,3 +1,11 @@
+### Program drukujący dla Adobe Forms.
+
+```
+DATA: gv_fp_outputparams TYPE sfpoutputparams,
+      gv_fm_names        TYPE funcname,
+      gv_fp_formoutput   TYPE fpformoutput,
+      gv_fp_docparams    TYPE sfpdocparams.
+```
 ```
 FORM print.
 
