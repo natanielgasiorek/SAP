@@ -1,4 +1,4 @@
-~~
+``
 FORM print.
 
   DATA: lt_makt TYPE zmakt_t.
@@ -68,4 +68,4 @@ FORM print.
   ENDIF.
 
 ENDFORM.
-~~
+``
