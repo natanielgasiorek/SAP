@@ -41,3 +41,7 @@ MOVE-CORRESPONDING so_werks[] TO gt_werks_opt.
 #### Tworzenie concatenate podczas przypisywania wartości.
 	
 *ls_xyz-matdoc = lv_temp && ls_mseg-zeile.
+
+#### Sprawdzanie czy stworzony obiekt jest pusty.
+
+IF o_test IS NOT BOUND.
