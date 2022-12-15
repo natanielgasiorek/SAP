@@ -67,3 +67,7 @@ MOVE-CORRESPONDING so_werks[] TO gt_werks_opt.
 #### Sprawdzanie czy stworzony obiekt jest pusty.
 
 IF o_test IS NOT BOUND.
+
+#### Przekonwertowanie daty i czasu, na konkretny typ czasu:
+
+CONVERT TIME STAMP gs_header-date TIME ZONE 'CET' INTO DATE gv_date.
