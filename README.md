@@ -15,7 +15,9 @@
 ### Jak przenieść transport między mandantami:
 
 * Wchodzimy w transakcję SCC1
+
 ![1498591a-2afa-4e38-a830-b4f0ccfb381b](https://user-images.githubusercontent.com/91785152/207814568-f7fe984b-d017-43a1-ba48-859a75202db2.jpg)
+![9c4c553a-0950-417e-beb7-3432d9454eea](https://user-images.githubusercontent.com/91785152/207814929-089b337a-05d5-4292-844d-33a42035efb7.jpg)
 
 --------------------------------------------------------------
 
