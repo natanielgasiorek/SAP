@@ -12,6 +12,16 @@
 * Wpisujemy nazwę elementu który chcemy zmienić. 
 
 --------------------------------------------------------------
+### Jak znaleźć tabelę (FIORI), w której dokonujemy zmian.
+
+* Wchodzimy w okienko Activate Trace with Filter
+* Wypełniamy użytkownika i mandant
+![image](https://user-images.githubusercontent.com/91785152/207831920-94bec0a1-4042-43c7-9725-d64f4f5af33a.png)
+* Dokonujemy zmian w jakimś polu
+* Klikamy w okienko Deactive Trace.
+* Wchodzimy w okienko Display Trace
+![image](https://user-images.githubusercontent.com/91785152/207832145-9ef28301-b4d1-45aa-a4ea-3fdee73229a4.png)
+--------------------------------------------------------------
 ### Jak przenieść transport między mandantami:
 
 * Wchodzimy w transakcję SCC1
