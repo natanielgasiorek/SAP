@@ -21,7 +21,7 @@
 * Dokonujemy zmian w jakimś polu
 * Klikamy w okienko Deactive Trace.
 * Wchodzimy w okienko Display Trace
-* 
+
 ![image](https://user-images.githubusercontent.com/91785152/207832145-9ef28301-b4d1-45aa-a4ea-3fdee73229a4.png)
 --------------------------------------------------------------
 ### Jak przenieść transport między mandantami:
