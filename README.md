@@ -12,6 +12,12 @@
 * Wpisujemy nazwę elementu który chcemy zmienić. 
 
 --------------------------------------------------------------
+### Jak przenieść transport między mandantami:
+
+* Wchodzimy w transakcję SCC1
+![1498591a-2afa-4e38-a830-b4f0ccfb381b](https://user-images.githubusercontent.com/91785152/207814568-f7fe984b-d017-43a1-ba48-859a75202db2.jpg)
+
+--------------------------------------------------------------
 
 ### Przekazanie parametru select-options do modułu funkcyjnego:
 
