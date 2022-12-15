@@ -71,3 +71,7 @@ IF o_test IS NOT BOUND.
 #### Przekonwertowanie daty i czasu, na konkretny typ czasu:
 
 CONVERT TIME STAMP gs_header-date TIME ZONE 'CET' INTO DATE gv_date.
+
+#### Usówanie rekordów które w konkretnym polu posiadają taką samą wartość:
+
+DELETE ADJACENT DUPLICATES FROM lt_text_item COMPARING consignee_id .
