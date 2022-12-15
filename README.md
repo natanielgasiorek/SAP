@@ -14,7 +14,7 @@
 --------------------------------------------------------------
 ### Jak znaleźć tabelę (FIORI), w której dokonujemy zmian.
 
-* Wchodzimy w transakcję st05
+* Wchodzimy w transakcję ST05
 * Wchodzimy w okienko Activate Trace with Filter
 * Wypełniamy użytkownika i mandant
 
