@@ -76,3 +76,17 @@ FORM print.
 
 ENDFORM.
 ```
+
+**********************************************************************
+
+### Zwracanie formularza w postaci xstring.
+
+```
+    lv_fp_outputparams-noprint   = abap_false.
+    lv_fp_outputparams-nopributt = abap_false.
+    lv_fp_outputparams-noarchive = abap_false.
+    lv_fp_outputparams-getpdf    = abap_true.
+    
+    REFERENCE(EV_PDF) TYPE XSTRING.
+    ev_pdf =  lv_fp_formoutput-pdf.
+```
