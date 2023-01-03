@@ -9,3 +9,16 @@
 * Po wykonaniu tych trzech punktów dajemy dyskietkę (zapis) i przechodzimy do transakcji FBV0 gdzie możemy otworzyć stworzony dokument.
 
 --------------------------------------------------------------------------------------------------------------------------------------
+
+### Obsługa transakcji MIR7 - Mennica
+
+![d7bf9ca4-7e58-4f1a-9464-fa140fed3d45](https://user-images.githubusercontent.com/91785152/210354520-0f688ffe-e2ac-4f6c-9c51-d0aca89e1ba6.jpg)
+
+![3483019d-e937-4986-9802-31b2359ee087](https://user-images.githubusercontent.com/91785152/210354529-0276eca2-4dff-475e-950a-932260594598.jpg)
+
+![a7ffde5e-8a4f-4538-988e-0c7f343c6bd9](https://user-images.githubusercontent.com/91785152/210354540-2ffc98c0-0876-4f87-97be-e7ada2d0acc0.jpg)
+
+![2cc53eff-1fb7-4f9a-b9b0-bf44680cc7bf](https://user-images.githubusercontent.com/91785152/210354575-b55b1ab4-2fd7-4cb3-80d5-fecafd35d725.jpg)
+
+
+* Po wykonaniu tych czynności przechodzimy do transakcji MIRO gdzie możemy zaksięgować stworzony dokument.
