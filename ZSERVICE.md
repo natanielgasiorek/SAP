@@ -20,5 +20,4 @@
 
 ![2cc53eff-1fb7-4f9a-b9b0-bf44680cc7bf](https://user-images.githubusercontent.com/91785152/210354575-b55b1ab4-2fd7-4cb3-80d5-fecafd35d725.jpg)
 
-
-* Po wykonaniu tych czynności przechodzimy do transakcji MIRO gdzie możemy zaksięgować stworzony dokument.
+--------------------------------------------------------------------------------------------------------------------------------------
