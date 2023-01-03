@@ -7,3 +7,5 @@
 ![image](https://user-images.githubusercontent.com/91785152/210352554-25158d96-d111-4d0a-960d-8b63cd110b0c.png)
 
 * Po wykonaniu tych trzech punktów dajemy dyskietkę (zapis) i przechodzimy do transakcji FBV0 gdzie możemy otworzyć stworzony dokument.
+
+--------------------------------------------------------------------------------------------------------------------------------------
