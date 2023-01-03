@@ -10,7 +10,7 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-### Obsługa transakcji MIR7 - Mennica
+### Obsługa transakcji MIR7 - Mennica - DEV500
 
 ![d7bf9ca4-7e58-4f1a-9464-fa140fed3d45](https://user-images.githubusercontent.com/91785152/210354520-0f688ffe-e2ac-4f6c-9c51-d0aca89e1ba6.jpg)
 
