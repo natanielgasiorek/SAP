@@ -51,7 +51,7 @@ Edytowanie układu wglądu do tabeli:
 
 -wchodzimy w debager
 
--parametry ( gd_edit = X, gd_sapedit = X)
+-parametry ( gd-edit = X, gd-sapedit = X)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
