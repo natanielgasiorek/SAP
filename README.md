@@ -38,7 +38,7 @@
 
 ![image](https://user-images.githubusercontent.com/91785152/212666906-4ad36901-19ff-408d-93c9-7e7d306c5c54.png)
 
-####Przykład: Mennica - tr. ZSD_VAT_DATE
+Przykład: Mennica - tr. ZSD_VAT_DATE
 --------------------------------------------------------------
 ### Przekazanie parametru select-options do modułu funkcyjnego:
 
