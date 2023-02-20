@@ -50,7 +50,7 @@ MOVE-CORRESPONDING so_werks[] TO gt_werks_opt.
 ![image](https://user-images.githubusercontent.com/91785152/196413115-73fcfaf3-132a-4c11-88c1-482532c18bc6.png)
 
 ---------------------------------------------------------------
-##3 Uruchomienie usługi mobilnej:
+### Uruchomienie usługi mobilnej:
 
 ![36ba0fc3-30d0-48c1-b1e5-5e210d352861](https://user-images.githubusercontent.com/91785152/220081411-bf18c3c5-961b-49d6-989d-58301a432aa9.jpg)
 ![ba65babd-c6be-405a-adc6-3f8387f6d9f0](https://user-images.githubusercontent.com/91785152/220081423-1de80d5a-563d-4222-b388-69e91518a5ce.jpg)
