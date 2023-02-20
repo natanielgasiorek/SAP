@@ -50,6 +50,14 @@ MOVE-CORRESPONDING so_werks[] TO gt_werks_opt.
 ![image](https://user-images.githubusercontent.com/91785152/196413115-73fcfaf3-132a-4c11-88c1-482532c18bc6.png)
 
 ---------------------------------------------------------------
+##3 Uruchomienie usługi mobilnej:
+
+![36ba0fc3-30d0-48c1-b1e5-5e210d352861](https://user-images.githubusercontent.com/91785152/220081411-bf18c3c5-961b-49d6-989d-58301a432aa9.jpg)
+![ba65babd-c6be-405a-adc6-3f8387f6d9f0](https://user-images.githubusercontent.com/91785152/220081423-1de80d5a-563d-4222-b388-69e91518a5ce.jpg)
+![e408645b-1070-49ba-a162-b430ceecadda](https://user-images.githubusercontent.com/91785152/220081470-9da2e269-7adb-4d33-a695-3b994e464ad1.jpg)
+![74bdbe3b-2dbd-4811-b44c-c761de9d7a4b](https://user-images.githubusercontent.com/91785152/220081488-2b163ce8-147c-4a3e-ad3a-186fd2e1868a.jpg)
+
+---------------------------------------------------------------
 #### Przykład sortowania: 
 
 *SORT gt_price BY kscha.
