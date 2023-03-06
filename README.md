@@ -93,8 +93,11 @@ DELETE ADJACENT DUPLICATES FROM lt_text_item COMPARING consignee_id .
 #### Definicja klasy w ABAP OO:
 
 CLASS (nazwa) DEFINITION.
+
 	PUBLIC SECTION.
+	
 	PRIVATE SECTION.
+	
 ENDCLASS.
 
 CLASS (nazwa) IMPLEMENTATION.
