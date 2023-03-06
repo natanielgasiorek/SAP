@@ -89,3 +89,13 @@ CONVERT TIME STAMP gs_header-date TIME ZONE 'CET' INTO DATE gv_date.
 #### Usówanie rekordów które w konkretnym polu posiadają taką samą wartość:
 
 DELETE ADJACENT DUPLICATES FROM lt_text_item COMPARING consignee_id .
+
+#### Definicja klasy w ABAP OO:
+
+CLASS (nazwa) DEFINITION.
+
+ENDCLASS.
+
+CLASS (nazwa) IMPLEMENTATION.
+
+ENDCLASS.
