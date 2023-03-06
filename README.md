@@ -97,6 +97,12 @@ CLASS (nazwa) DEFINITION.
 	PUBLIC SECTION.
 	
 	PRIVATE SECTION.
+		DATA:
+			mv_(nazwa) TYPE (typ),
+			...
+		Class-DATA:
+			gv_n_o_(nazwa) TYPE (typ),
+			...
 	
 ENDCLASS.
 
