@@ -1,4 +1,4 @@
-## Dodanie guzika zapisu do ALV:
+### Dodanie guzika zapisu do ALV:
 
 ```
 ------------------------------------------------
@@ -26,7 +26,7 @@
   ------------------------------------------------
 ```
   
- ## Obsłużenie guzika zapisu w ALV.
+ ### Obsłużenie guzika zapisu w ALV:
 ```
   ------------------------------------------------
     handle_user_command FOR EVENT user_command OF cl_gui_alv_grid IMPORTING e_ucomm,
