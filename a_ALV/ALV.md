@@ -183,13 +183,10 @@ CLASS lcl_view IMPLEMENTATION.
     LOOP AT ct_fieldcat ASSIGNING <lf_fcat>.
 *      <lf_fcat>-col_opt = 'X'.
       CASE <lf_fcat>-fieldname.
-        WHEN 'ORT01'.
-          <lf_fcat>-style = 4.    "Dodanie koloru do kolumny (jasny żółty)
-        WHEN 'STRAS'.
-          <lf_fcat>-style = 4.
-        WHEN 'ICON'.
-          <lf_fcat>-scrtext_s = 'Przyp.'.
-          <lf_fcat>-scrtext_l = 'Przypisanie'.
+*        WHEN 'ORT01'.
+*         <lf_fcat>-style = 4.    "Dodanie koloru do kolumny (jasny żółty)
+*         <lf_fcat>-scrtext_s = 'Przyp.'. "Krótki tekst
+*         <lf_fcat>-scrtext_l = 'Przypisanie'. "Długi tekst
         WHEN OTHERS.
       ENDCASE.
     ENDLOOP.
