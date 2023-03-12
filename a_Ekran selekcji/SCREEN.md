@@ -1,4 +1,6 @@
 ----------------------------------------------------------------------------------------------------------------
+## Przykładowe tworzenie ekranu selekcji:
+
 ```
 /Ekran selekcji - wprowadzanie wielu parametrów.
 DATA: s_kschl TYPE a904-kschl,
