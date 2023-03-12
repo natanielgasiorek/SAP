@@ -1,4 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------
+```
 /Ekran selekcji - wprowadzanie wielu parametrów.
 DATA: s_kschl TYPE a904-kschl,
       s_prdha TYPE mara-prdha.
@@ -19,6 +20,7 @@ SELECTION-SCREEN BEGIN OF BLOCK a02 WITH FRAME TITLE TEXT-002.
   SELECTION-SCREEN   PUSHBUTTON 2(34) TEXT-b03 USER-COMMAND but01.
   SELECTION-SCREEN   PUSHBUTTON 40(34) TEXT-b04 USER-COMMAND but02.
 SELECTION-SCREEN END OF BLOCK a02.
+```
 
 ----------------------------------------------------------------------------------------------------------------
 ## Ekran selekcji z ikonami:
