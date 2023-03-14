@@ -22,3 +22,53 @@
 Przykład Mennica - ZMM_ETYKIETY
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Instrukcja jak stworzyć wgląd do tabeli konfiguracyjnej:
+
+Aby stworzyć transakcję dla opracowania wglądu należy:
+
+- uruchomić transakcję SE93,
+- wybrać nazwę dla nowej transakcji,
+- wybrać opcję transakcja z parametrami (transakcja parametrów),
+- dalej w polu transakcja wpisać SM30,
+- zaznaczyć pominięcie ekranu początk.,
+- zaznaczyć GUI-dziedziczenie właściwości,
+- w parametrach podać VIEWNAME - wartość NAZWA WGLĄDU
+		      UPDATE	- X
+		      
+Tworzymy generator opracowania tabeli:
+
+![92f7bf09-3341-45c8-8d28-50a478a585e8](https://user-images.githubusercontent.com/91785152/198004684-a3dce76d-9377-49cf-a564-8c2e45915daa.jpg)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Instrukcja jak edytować wygląd tabeli konfiguracyjnej:
+
+Edytowanie układu wglądu do tabeli:
+
+- uruchomić transakcję SE11,
+- w trybie zmiany odpalić tabelę,
+- pomoce (generator opracowania tabeli),
+- otoczenie
+- modyfikacja,
+- ekrany opracowania,
+- wybierasz ekran (enter),
+- układ
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Usuwanie danych z tabeli se16n:
+
+-wchodzimy w debager
+
+-parametry ( gd-edit = X, gd-sapedit = X)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Usuwanie duplikatów w pomocy wyszukiwania:
+
+![image](https://user-images.githubusercontent.com/91785152/205066443-0507f392-41af-4f48-aa8f-938e20ae76fe.png)
+
+Nazwa exitu = /DSD/DX_SH_EXIT_DUPLICATES
+
+Przyklad: ZMM_LABELS - ZPRINTER_F4 - Mennica
