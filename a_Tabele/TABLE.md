@@ -1,6 +1,6 @@
 ## Aktywacja tabeli po dokonanych zmianach:
 
-### Transakcja SE14
+* Wchodzimy w transakcję se14
 
 ![tabela1](https://user-images.githubusercontent.com/91785152/224951430-ac96fc80-a7f7-4850-b760-d90ba76cdcab.png)
 
