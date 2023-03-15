@@ -65,7 +65,24 @@ INITIALIZATION.
   text_004 = '@0A@'.
 ```
 ----------------------------------------------------------------------------------------------------------------
-## Ekran selekcji z ukrywaniem pól:
+## Ekran selekcji z dezaktywacją pól:
 
 ![image](https://user-images.githubusercontent.com/91785152/225346801-91f131b5-43de-495c-a2a0-eb19711e195d.png)
 ![image](https://user-images.githubusercontent.com/91785152/225346892-c9f76943-f05a-479e-b816-5583fe39e333.png)
+
+```
+***********************************************************************
+*           SCREEN                                                    *
+***********************************************************************
+SELECTION-SCREEN BEGIN OF BLOCK a01 WITH FRAME TITLE TEXT-001.
+  PARAMETERS: pa_bukrs TYPE acdoca-rbukrs OBLIGATORY.
+  PARAMETERS: pa_datum TYPE datum OBLIGATORY DEFAULT sy-datum.
+  SELECT-OPTIONS: so_lifnr FOR s_lifnr.
+  SELECTION-SCREEN SKIP 1.
+  PARAMETERS: ra_alv  RADIOBUTTON GROUP rad1 USER-COMMAND but01,
+              ra_save RADIOBUTTON GROUP rad1.
+  SELECTION-SCREEN SKIP 1.
+  PARAMETERS: ch_fak  AS CHECKBOX DEFAULT 'X',
+              ch_dost AS CHECKBOX.
+SELECTION-SCREEN END OF BLOCK a01.
+```
