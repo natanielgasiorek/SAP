@@ -79,10 +79,49 @@ SELECTION-SCREEN BEGIN OF BLOCK a01 WITH FRAME TITLE TEXT-001.
   PARAMETERS: pa_datum TYPE datum OBLIGATORY DEFAULT sy-datum.
   SELECT-OPTIONS: so_lifnr FOR s_lifnr.
   SELECTION-SCREEN SKIP 1.
-  PARAMETERS: ra_alv  RADIOBUTTON GROUP rad1 USER-COMMAND but01,
+  PARAMETERS: ra_alv  RADIOBUTTON GROUP rad1 USER-COMMAND but01, " <- To jest ważne do zaznaczenia
               ra_save RADIOBUTTON GROUP rad1.
   SELECTION-SCREEN SKIP 1.
   PARAMETERS: ch_fak  AS CHECKBOX DEFAULT 'X',
               ch_dost AS CHECKBOX.
 SELECTION-SCREEN END OF BLOCK a01.
+***********************************************************************
+*           INITIALIZATION                                                   *
+***********************************************************************
+INITIALIZATION. AT SELECTION-SCREEN.
+**********************************************************
+* Edycja ekranu selekcji gdy wybierze się zapis do bazy danych
+  IF sy-ucomm = 'BUT01'.
+    LOOP AT SCREEN.
+      IF ra_save IS NOT INITIAL.
+        ch_fak = 'X'.
+        ch_dost = 'X'.
+        pa_datum = sy-datum.
+        CLEAR: so_lifnr[].         IF screen-name CS 'SO_LIFNR'
+          OR screen-name CS 'CH_FAK'
+          OR screen-name CS 'CH_DOST'
+          OR screen-name CS 'PA_DATUM'.
+          screen-input = 0.
+          MODIFY SCREEN.
+        ENDIF.
+      ENDIF.
+    ENDLOOP.
+  ENDIF. AT SELECTION-SCREEN OUTPUT.
+  LOOP AT SCREEN.
+    IF ra_save IS NOT INITIAL.
+      ch_fak = 'X'.
+      ch_dost = 'X'.
+      pa_datum = sy-datum.
+      CLEAR: so_lifnr[].
+      IF screen-name CS 'SO_LIFNR'
+      OR screen-name CS 'CH_FAK'
+      OR screen-name CS 'CH_DOST'
+      OR screen-name CS 'PA_DATUM'.
+        screen-input = 0.
+        MODIFY SCREEN.
+      ENDIF.
+    ENDIF.
+  ENDLOOP.
+**********************************************************
+
 ```
