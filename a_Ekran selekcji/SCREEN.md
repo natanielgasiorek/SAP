@@ -70,6 +70,8 @@ INITIALIZATION.
 ![image](https://user-images.githubusercontent.com/91785152/225346801-91f131b5-43de-495c-a2a0-eb19711e195d.png)
 ![image](https://user-images.githubusercontent.com/91785152/225346892-c9f76943-f05a-479e-b816-5583fe39e333.png)
 
+### Kod:
+
 ```
 ***********************************************************************
 *           SCREEN                                                    *
