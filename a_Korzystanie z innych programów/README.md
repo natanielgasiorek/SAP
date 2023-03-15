@@ -1,4 +1,4 @@
-## Pobranie danych z raportu ALV używając innego progrmu:
+## Pobranie danych z raportu ALV używając innego programu:
 
 ```
 **********************************************************
