@@ -88,10 +88,11 @@ SELECTION-SCREEN BEGIN OF BLOCK a01 WITH FRAME TITLE TEXT-001.
               ch_dost AS CHECKBOX.
 SELECTION-SCREEN END OF BLOCK a01.
 ***********************************************************************
-*           INITIALIZATION                                                   *
+*           INITIALIZATION                                            *
 ***********************************************************************
-INITIALIZATION. AT SELECTION-SCREEN.
-**********************************************************
+INITIALIZATION. 
+
+AT SELECTION-SCREEN.
 * Edycja ekranu selekcji gdy wybierze się zapis do bazy danych
   IF sy-ucomm = 'BUT01'.
     LOOP AT SCREEN.
@@ -108,7 +109,9 @@ INITIALIZATION. AT SELECTION-SCREEN.
         ENDIF.
       ENDIF.
     ENDLOOP.
-  ENDIF. AT SELECTION-SCREEN OUTPUT.
+  ENDIF. 
+  
+  AT SELECTION-SCREEN OUTPUT.
   LOOP AT SCREEN.
     IF ra_save IS NOT INITIAL.
       ch_fak = 'X'.
@@ -125,5 +128,4 @@ INITIALIZATION. AT SELECTION-SCREEN.
     ENDIF.
   ENDLOOP.
 **********************************************************
-
 ```
