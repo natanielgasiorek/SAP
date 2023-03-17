@@ -8,3 +8,11 @@
 ![image](https://user-images.githubusercontent.com/91785152/225925451-48e7590a-8a4c-4565-b8aa-b827e2f37562.png)
 
 -------------------------------------------------------------------------------------------------------------------------
+
+### Jak wydrukować fakturę, bez podpiętego rodzaju informacji wyjściowej:
+
+* Transakcja vf02
+
+![image](https://user-images.githubusercontent.com/91785152/225927005-6e7c0b20-a24c-4a43-98e7-bca1d151858f.png)
+
+
