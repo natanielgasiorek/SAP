@@ -14,5 +14,12 @@
 * Transakcja vf02
 
 ![image](https://user-images.githubusercontent.com/91785152/225927005-6e7c0b20-a24c-4a43-98e7-bca1d151858f.png)
+![image](https://user-images.githubusercontent.com/91785152/225927193-61f20999-2bbd-4032-bf04-8ccfbfb8f6f4.png)
 
 
+* Zapisujemy
+
+![image](https://user-images.githubusercontent.com/91785152/225927381-673b8d9a-e3eb-4ce7-9fba-d92fcf4638e3.png)
+
+
+-------------------------------------------------------------------------------------------------------------------------
