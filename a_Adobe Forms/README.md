@@ -14,7 +14,7 @@
 
 ### Jak sprawdzić czy na serwerze jest podpięty ADS:
 
-* Tramsakcja sm59
+* Transakcja sm59
 * Powinno się tam znajdować połączenie ADS
 
 ![image](https://user-images.githubusercontent.com/91785152/225923512-97725aee-395b-4bde-ba2b-3bfc7dc17467.png)
