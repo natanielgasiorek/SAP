@@ -5,6 +5,8 @@ DATA: gv_fp_outputparams TYPE sfpoutputparams,
       gv_fm_names        TYPE funcname,
       gv_fp_formoutput   TYPE fpformoutput,
       gv_fp_docparams    TYPE sfpdocparams.
+      
+      gv_formname        TYPE fpname.
 ```
 ```
 FORM print.
