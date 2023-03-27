@@ -90,22 +90,6 @@ CONVERT TIME STAMP gs_header-date TIME ZONE 'CET' INTO DATE gv_date.
 
 DELETE ADJACENT DUPLICATES FROM lt_text_item COMPARING consignee_id .
 
-#### Definicja klasy w ABAP OO:
+#### Zmiana przecinka na kropkę w wartości liczbowej:
 
-CLASS (nazwa) DEFINITION.
-
-	PUBLIC SECTION.
-	
-	PRIVATE SECTION.
-		DATA:
-			mv_(nazwa) TYPE (typ),
-			...
-		Class-DATA:
-			gv_n_o_(nazwa) TYPE (typ),
-			...
-	
-ENDCLASS.
-
-CLASS (nazwa) IMPLEMENTATION.
-
-ENDCLASS.
+REPLACE FIRST OCCURRENCE OF ',' IN ls_intern1-value WITH '.'.
