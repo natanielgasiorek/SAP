@@ -93,3 +93,4 @@ DELETE ADJACENT DUPLICATES FROM lt_text_item COMPARING consignee_id .
 #### Zmiana przecinka na kropkę w wartości liczbowej:
 
 REPLACE FIRST OCCURRENCE OF ',' IN ls_intern1-value WITH '.'.
+.
