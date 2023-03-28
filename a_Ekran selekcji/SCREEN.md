@@ -130,3 +130,32 @@ AT SELECTION-SCREEN.
 **********************************************************
 ```
 ----------------------------------------------------------------------------------------------------------------
+
+## Wstawienie radiobuttonów z większą nazwą niż standard:
+
+![image](https://user-images.githubusercontent.com/91785152/228186003-80dad2e3-ab3a-44f3-a495-80b363e903c7.png)
+
+### Kod:
+
+```
+************************************************
+* Modyfikacja, 27.03.2023
+* Jarosław G.
+* Modyfikacja raportu wyników kontroli
+************************************************
+SELECTION-SCREEN SKIP 1.
+SELECTION-SCREEN BEGIN OF BLOCK typ WITH FRAME TITLE text-s03.
+SELECTION-SCREEN BEGIN OF LINE.
+PARAMETERS: ra_old  RADIOBUTTON GROUP rad1.
+SELECTION-SCREEN COMMENT (40) text-011.
+SELECTION-SCREEN END OF LINE.
+
+SELECTION-SCREEN BEGIN OF LINE.
+  PARAMETERS: ra_new  RADIOBUTTON GROUP rad1.
+SELECTION-SCREEN COMMENT (40) text-012.
+SELECTION-SCREEN END OF LINE.
+SELECTION-SCREEN END OF BLOCK typ.
+************************************************
+* Koniec modyfikacji
+************************************************
+```
