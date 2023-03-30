@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/91785152/228840912-83b7ca04-251c-408d-8f22-3886f3726fca.png)
 ![image](https://user-images.githubusercontent.com/91785152/228841020-f5938be2-ae88-4904-a052-cfe51324def0.png)
 
-## KOD:
+#### KOD:
 ```
   TYPES: BEGIN OF ty_int,
            order_id TYPE zsi_order_id,
@@ -41,4 +41,4 @@ ENDDO.
       ENDIF.
 ```
 
-# Przykład ZSI_PRCOC -> ZSD_INT_PROC_NEW_F03_ZI : MENNICA
+#### Przykład ZSI_PRCOC -> ZSD_INT_PROC_NEW_F03_ZI : MENNICA
