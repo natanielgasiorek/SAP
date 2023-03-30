@@ -93,4 +93,12 @@ DELETE ADJACENT DUPLICATES FROM lt_text_item COMPARING consignee_id .
 #### Zmiana przecinka na kropkę w wartości liczbowej:
 
 REPLACE FIRST OCCURRENCE OF ',' IN ls_intern1-value WITH '.'.
-.
+
+#### Zaokrąglenie liczb do miejsc po przecinku o sumie dwóch pól:
+
+```
+*       trzeba zaokrąglić wartość do liczby miesc po przecinku: STELLEN + NKSTELLOF
+<lv_any_m_dec> = <ls_data_hlp>-stellen + <ls_data_hlp>-nkstellof.
+<lv_any_m> = round( val = <ls_data_hlp>-mittelwert
+                            dec = <lv_any_m_dec> ).
+```
