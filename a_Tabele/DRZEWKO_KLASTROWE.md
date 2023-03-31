@@ -6,11 +6,15 @@
 
 * Stworzenie potrzebnych tabel:
 
+![image](https://user-images.githubusercontent.com/91785152/229112922-891c425b-1971-456b-9ec3-9fb8d9445688.png)
+
 ![image](https://user-images.githubusercontent.com/91785152/229109966-b40e5f70-0bf1-46a1-b68c-1b28299bd228.png)
 ![image](https://user-images.githubusercontent.com/91785152/229110012-61c2c434-eda6-42a3-a506-af2a3e0ba8ec.png)
 ![image](https://user-images.githubusercontent.com/91785152/229110056-72933a18-199b-43e4-8d30-5423ea53e486.png)
 
 * Stworzenie wglądów do tych tabel:
+
+![image](https://user-images.githubusercontent.com/91785152/229112691-40c46942-98a6-46be-b167-72ce22192948.png)
 
 ![image](https://user-images.githubusercontent.com/91785152/229110222-20b4d314-ead6-4d6e-8340-394fde6563b6.png)
 ![image](https://user-images.githubusercontent.com/91785152/229110275-fd071c5c-8fca-460c-a2f1-af15c114050b.png)
