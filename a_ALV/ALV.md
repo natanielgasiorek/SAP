@@ -188,6 +188,7 @@ CLASS lcl_view IMPLEMENTATION.
          <lf_fcat>-scrtext_s = 'Narzut'. "Krótki tekst
          <lf_fcat>-scrtext_m = 'Narzut'. "Średni tekst
          <lf_fcat>-scrtext_l = 'Narzut'. "Długi tekst
+         <lf_fcat>-reptext = 'Narzut [%]'.
         WHEN OTHERS.
       ENDCASE.
     ENDLOOP.
