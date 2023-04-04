@@ -185,8 +185,9 @@ CLASS lcl_view IMPLEMENTATION.
       CASE <lf_fcat>-fieldname.
 *        WHEN 'ORT01'.
 *         <lf_fcat>-style = 4.    "Dodanie koloru do kolumny (jasny żółty)
-*         <lf_fcat>-scrtext_s = 'Przyp.'. "Krótki tekst
-*         <lf_fcat>-scrtext_l = 'Przypisanie'. "Długi tekst
+         <lf_fcat>-scrtext_s = 'Narzut'. "Krótki tekst
+         <lf_fcat>-scrtext_m = 'Narzut'. "Średni tekst
+         <lf_fcat>-scrtext_l = 'Narzut'. "Długi tekst
         WHEN OTHERS.
       ENDCASE.
     ENDLOOP.
