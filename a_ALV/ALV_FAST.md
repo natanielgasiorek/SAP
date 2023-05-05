@@ -1,4 +1,4 @@
-## Szybka ALV z zebrą. Wsadzamy tylko tabelę.
+## Szybka ALV z zebrą gdzie wsadzamy tylko tabelę.
 
 ```
   DATA gr_table TYPE REF TO cl_salv_table.
