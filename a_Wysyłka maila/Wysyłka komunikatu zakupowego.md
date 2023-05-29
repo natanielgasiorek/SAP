@@ -14,7 +14,7 @@
 
 ## Kod znajdujący się w mofule funkcyjnym:
 
-``
+```
 FUNCTION zmm_send_email_sapscript.
 *"----------------------------------------------------------------------
 *"*"Lokalny interfejs:
@@ -185,4 +185,4 @@ FUNCTION zmm_send_email_sapscript.
 
   ENDIF.
 ENDFUNCTION.
-``
+```
