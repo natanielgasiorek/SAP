@@ -186,3 +186,8 @@ FUNCTION zmm_send_email_sapscript.
   ENDIF.
 ENDFUNCTION.
 ```
+
+![image](https://github.com/natanielgasiorek/SAP/assets/91785152/9d7790f1-b53a-4c9b-9f95-11e5947c46ea)
+![image](https://github.com/natanielgasiorek/SAP/assets/91785152/07527837-925b-4420-bd7a-90a0af6fdf65)
+
+### Prace wykonane dla Jutrzenki.
