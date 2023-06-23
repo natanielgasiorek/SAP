@@ -72,3 +72,17 @@ Edytowanie układu wglądu do tabeli:
 Nazwa exitu = /DSD/DX_SH_EXIT_DUPLICATES
 
 Przyklad: ZMM_LABELS - ZPRINTER_F4 - Mennica
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Jak zrobić tabelę słownikową z przypisanym opisem:
+
+![image](https://github.com/natanielgasiorek/SAP/assets/91785152/ec395543-e14c-4262-9afe-5062d40566f7)
+
+![image](https://github.com/natanielgasiorek/SAP/assets/91785152/dbdbd757-43a8-4f86-9918-1109fcc7f332)
+
+![image](https://github.com/natanielgasiorek/SAP/assets/91785152/1a0777f2-621c-4479-8fc0-d7b0c49da840)
+
+![image](https://github.com/natanielgasiorek/SAP/assets/91785152/d6f37fa5-790d-437a-8213-ebc472af11c8)
+
+![image](https://github.com/natanielgasiorek/SAP/assets/91785152/d798a8b1-009c-4fdb-83ba-7a68d1183bf5)
