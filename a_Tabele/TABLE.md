@@ -22,6 +22,9 @@
 Przykład Mennica - ZMM_ETYKIETY
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Instrukcja jak stworzyć transakcje dla drzewa klastrowego:
+
+![image](https://github.com/natanielgasiorek/SAP/assets/91785152/7be76ada-1549-47f6-a504-0b100b1824e6)
 
 ## Instrukcja jak stworzyć wgląd do tabeli konfiguracyjnej:
 
