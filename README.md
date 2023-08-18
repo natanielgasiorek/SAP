@@ -102,3 +102,19 @@ REPLACE FIRST OCCURRENCE OF ',' IN ls_intern1-value WITH '.'.
 <lv_any_m> = round( val = <ls_data_hlp>-mittelwert
                             dec = <lv_any_m_dec> ).
 ```
+
+#### Wywołanie transakcji MIGO z wyświetlaniem dokumentu:
+
+```
+ CALL FUNCTION 'MIGO_DIALOG'
+          EXPORTING
+            i_no_auth_check     = 'X'
+            i_mblnr             = ls_data_i-mblnr
+            i_mjahr             = ls_data_i-mjahr
+          EXCEPTIONS
+            illegal_combination = 1
+            OTHERS              = 2.
+        IF sy-subrc <> 0.
+* Implement suitable error handling here
+        ENDIF.
+```
