@@ -18,6 +18,16 @@
 ## Edycja dokumentu sprzedaży:
 
 ```
+    DATA: ls_header_in   TYPE bapisdh1,
+          ls_header_inx  TYPE bapisdh1x,
+          lv_order       TYPE vbeln_va,
+          lt_item        TYPE STANDARD TABLE OF bapisditm,
+          lt_itemx       TYPE STANDARD TABLE OF bapisditmx,
+          lt_return      TYPE bapiret2_t,
+          lt_return_temp TYPE bapiret2_t.
+```
+
+```
             CALL FUNCTION 'BAPI_SALESORDER_CHANGE'
               EXPORTING
                 salesdocument    = lv_order
