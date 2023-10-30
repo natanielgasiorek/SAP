@@ -118,3 +118,23 @@ REPLACE FIRST OCCURRENCE OF ',' IN ls_intern1-value WITH '.'.
 * Implement suitable error handling here
         ENDIF.
 ```
+
+#### Pobieranie danych z tabel konfiguracyjnych do jednego miejsca:
+
+1. Tworzymy typy tabel dla wszystkich tabel conf.
+![image](https://github.com/natanielgasiorek/SAP/assets/91785152/ed3031b4-eb03-464c-bbe9-c90e17cd02a2)
+2. Tworzymy strukturę. Pamiętać że na końcu musi pisać CONFIG !
+![image](https://github.com/natanielgasiorek/SAP/assets/91785152/21d8f202-e59a-4950-9567-79f9080953f4)
+3. Tworzymy atrybut w klasie.
+![image](https://github.com/natanielgasiorek/SAP/assets/91785152/3cc19f81-70d4-45f5-940e-3b00bb676bae)
+4. Wywołujemy kod, który zwróci nam wszystko co jest w tabelach konfiguracyjnych.
+```
+    IF ms_config IS INITIAL.
+
+      zcl_common_services=>get_config( EXPORTING iv_prefix = 'ZPOW_KBIK' "Tu wpisujemy wszystko co jest przed CONFIG w nazwie struktury
+                                       CHANGING  cv_config = ms_config
+                                                                      ).
+    ENDIF.
+```
+
+
