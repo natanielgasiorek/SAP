@@ -138,3 +138,58 @@ REPLACE FIRST OCCURRENCE OF ',' IN ls_intern1-value WITH '.'.
 ```
 
 
+
+```
+CALL FUNCTION 'SSF_FUNCTION_MODULE_NAME'
+      EXPORTING
+        formname           = ls_c1-formname
+*       VARIANT            = ' '
+*       DIRECT_CALL        = ' '
+      IMPORTING
+        fm_name            = fm_name
+      EXCEPTIONS
+        no_form            = 1
+        no_function_module = 2
+        OTHERS             = 3.
+    IF sy-subrc <> 0.
+* Implement suitable error handling here
+      MESSAGE ID sy-msgid TYPE 'I' NUMBER sy-msgno
+      WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4.
+      RETURN.
+    ENDIF.
+
+    ls_options-tdcopies = '1'.
+
+    CALL FUNCTION fm_name
+      EXPORTING
+*       ARCHIVE_INDEX        =
+*       ARCHIVE_INDEX_TAB    =
+*       ARCHIVE_PARAMETERS   =
+*       CONTROL_PARAMETERS   =
+*       MAIL_APPL_OBJ        =
+*       MAIL_RECIPIENT       =
+*       MAIL_SENDER          =
+        output_options       = ls_options
+*       USER_SETTINGS        = 'X'
+        is_data              = ls_print
+        is_prices            = mt_prices
+        is_config            = ls_config
+        is_config_18         = ms_config-c18[]
+      IMPORTING
+        document_output_info = ls_doc_info
+        job_output_info      = ls_job_info
+        job_output_options   = ls_job_options
+      EXCEPTIONS
+        formatting_error     = 1
+        internal_error       = 2
+        send_error           = 3
+        user_canceled        = 4
+        OTHERS               = 5.
+    IF sy-subrc <> 0.
+      CHECK sy-subrc NE 4.
+* Implement suitable error handling here
+      MESSAGE ID sy-msgid TYPE 'I' NUMBER sy-msgno
+      WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4.
+      RETURN.
+    ENDIF.
+```
