@@ -195,12 +195,12 @@ CALL FUNCTION 'SSF_FUNCTION_MODULE_NAME'
 ```
 ```
 ************************************************************************                                                                                                                    
-* Creation Date : 13.12.2024 12:36:22                                                                                                                                                                                                                                        
-* Author        : Nataniel Gąsiorek                                                                                                               
-* Description   : Istnieje potrzeba raportowania kosztów pierwotnych na MPK kosztów marketingu. 
-* MPK te są jednak rozliczane poprzez rozłożenie, gdzie pojawia się wtórny rodzaj kosztów odciążający
-* MPK nadawcze i obciążający MPK odbiorcze. Po rozliczeniu kosztów utracona zostaje informacja o pierwotnych 
-* rodzajach kosztów na MPK produktowych, które są na końcu procesu rozliczenia. Dlatego też program ten ma na
-* celu pokazanie kosztów po rozliczeniu, ale w układzie kosztów pierwotnych.                                                                                                                                     
+***********************************************************************
+*           DATA DECLARATION                                          *
+***********************************************************************
+
+***********************************************************************
+*           PROCESS                                                   *
+***********************************************************************                                                                                                                                   
 ************************************************************************
 ```
