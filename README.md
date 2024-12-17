@@ -197,4 +197,9 @@ CALL FUNCTION 'SSF_FUNCTION_MODULE_NAME'
 ***********************************************************************
 *           SCREEN                                                    *
 ***********************************************************************
+SELECTION-SCREEN BEGIN OF BLOCK a01 WITH FRAME TITLE TEXT-001.
+PARAMETERS: pa_gjahr TYPE cobk-gjahr OBLIGATORY.
+PARAMETERS: pa_perab TYPE cobk-perab OBLIGATORY.
+PARAMETERS: pa_perbi TYPE cobk-perbi OBLIGATORY.
+SELECTION-SCREEN END OF BLOCK a01.
 ```
