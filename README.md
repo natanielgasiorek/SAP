@@ -194,8 +194,14 @@ CALL FUNCTION 'SSF_FUNCTION_MODULE_NAME'
     ENDIF.
 ```
 ```
-AT SELECTION-SCREEN ON pa_gjahr.
-  IF pa_gjahr IS INITIAL.
-    pa_gjahr = sy-datum+0(4).
-  ENDIF.
+***********************************************************************
+*           INITIALS                                                  *
+***********************************************************************
+AT SELECTION-SCREEN OUTPUT.
+  LOOP AT SCREEN.
+    IF screen-name = 'PA_GJAHR'.
+      screen-input = '0'.
+      MODIFY SCREEN.
+    ENDIF.
+  ENDLOOP.
 ```
