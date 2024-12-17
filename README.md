@@ -201,4 +201,6 @@ ls_objnr_range-sign = 'I'.
 ls_objnr_range-option = 'EQ'.
 ls_objnr_range-low = '0000000000000000000000'. " Przykładowa wartość
 APPEND ls_objnr_range TO lt_objnr_range.
+
+KSGZF 0000
 ```
