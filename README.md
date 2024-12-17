@@ -194,5 +194,11 @@ CALL FUNCTION 'SSF_FUNCTION_MODULE_NAME'
     ENDIF.
 ```
 ```
-BAPI_COSTCENTER_GETLIST
+DATA: lt_objnr_range TYPE RANGE OF coep-objnr,
+      ls_objnr_range LIKE LINE OF lt_objnr_range.
+
+ls_objnr_range-sign = 'I'.
+ls_objnr_range-option = 'EQ'.
+ls_objnr_range-low = '0000000000000000000000'. " Przykładowa wartość
+APPEND ls_objnr_range TO lt_objnr_range.
 ```
