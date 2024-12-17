@@ -194,13 +194,5 @@ CALL FUNCTION 'SSF_FUNCTION_MODULE_NAME'
     ENDIF.
 ```
 ```
-START-OF-SELECTION.
-  CREATE OBJECT go_app.
-  TRY.
-      go_app->start_of_selection( gs_sel ).
-    CATCH zcx_einv.
-      EXIT.
-  ENDTRY.
-
-END-OF-SELECTION.
+BAPI_COSTCENTER_GETLIST
 ```
