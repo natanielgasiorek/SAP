@@ -194,14 +194,13 @@ CALL FUNCTION 'SSF_FUNCTION_MODULE_NAME'
     ENDIF.
 ```
 ```
-***********************************************************************
-*           INITIALS                                                  *
-***********************************************************************
-AT SELECTION-SCREEN OUTPUT.
-  LOOP AT SCREEN.
-    IF screen-name = 'PA_GJAHR'.
-      screen-input = '0'.
-      MODIFY SCREEN.
-    ENDIF.
-  ENDLOOP.
+START-OF-SELECTION.
+  CREATE OBJECT go_app.
+  TRY.
+      go_app->start_of_selection( gs_sel ).
+    CATCH zcx_einv.
+      EXIT.
+  ENDTRY.
+
+END-OF-SELECTION.
 ```
