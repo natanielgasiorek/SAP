@@ -210,4 +210,6 @@ APPEND ls_butxt_range TO lt_butxt_range.
 
 ls_butxt_range-low = 'RM230*'.
 APPEND ls_butxt_range TO lt_butxt_range.
+
+DELETE ADJACENT DUPLICATES FROM lt_table COMPARING
 ```
