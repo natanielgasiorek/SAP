@@ -194,6 +194,20 @@ CALL FUNCTION 'SSF_FUNCTION_MODULE_NAME'
     ENDIF.
 ```
 ```
-” i COEP-OBJNR in „lista MPK” i COEP-WRTTP = „04” i ( COEP-VRGNG = „COIN” lub „RKIU” )
- i COBK-STFLG <> „” i COBK-STOKZ <> „” i KOKRS = „GZF”.
+DATA: lt_butxt_range TYPE RANGE OF cobk-butxt,
+      ls_butxt_range LIKE LINE OF lt_butxt_range,
+      lt_cobk        TYPE TABLE OF cobk,
+      ls_cobk        LIKE LINE OF lt_cobk.
+
+" Dodaj zakresy do tabeli range
+ls_butxt_range-sign = 'I'.
+ls_butxt_range-option = 'CP'. " CP oznacza 'Contains Pattern'
+ls_butxt_range-low = 'RM210*'.
+APPEND ls_butxt_range TO lt_butxt_range.
+
+ls_butxt_range-low = 'RM220*'.
+APPEND ls_butxt_range TO lt_butxt_range.
+
+ls_butxt_range-low = 'RM230*'.
+APPEND ls_butxt_range TO lt_butxt_range.
 ```
