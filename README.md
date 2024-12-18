@@ -194,5 +194,6 @@ CALL FUNCTION 'SSF_FUNCTION_MODULE_NAME'
     ENDIF.
 ```
 ```
-Gdzie COBK-GJAHR = wartość parametru „Rok” i COBK-PERAB = wartość parametru „Okres od” i COBK-PERBI = wartość parametru „Okres do”
+” i COEP-OBJNR in „lista MPK” i COEP-WRTTP = „04” i ( COEP-VRGNG = „COIN” lub „RKIU” )
+ i COBK-STFLG <> „” i COBK-STOKZ <> „” i KOKRS = „GZF”.
 ```
