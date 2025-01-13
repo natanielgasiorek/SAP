@@ -212,4 +212,6 @@ ls_butxt_range-low = 'RM230*'.
 APPEND ls_butxt_range TO lt_butxt_range.
 
 DELETE ADJACENT DUPLICATES FROM lt_table COMPARING
+
+PL2K914510       PCENDER      ZCO: Primary costs after settlements to the cost center
 ```
