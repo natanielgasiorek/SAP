@@ -213,5 +213,5 @@ APPEND ls_butxt_range TO lt_butxt_range.
 
 DELETE ADJACENT DUPLICATES FROM lt_table COMPARING
 
-PL2K914510       PCENDER      ZCO: Primary costs after settlements to the cost center
+PL2K914528       PCENDER      QM: Mod. of the printout of the sampling instructions - QM02
 ```
