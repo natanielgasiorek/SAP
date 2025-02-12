@@ -215,3 +215,6 @@ DELETE ADJACENT DUPLICATES FROM lt_table COMPARING
 
 PL2K914530       PCENDER      QM: Mod. of the printout of the sampling instructions - QM02
 ```
+
+![image](https://github.com/user-attachments/assets/d504be1b-973c-4bbd-9f26-d474051e3a22)
+
